@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "e3e78cbda98c218ab47822bb8d670c31",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1264,6 +1264,57 @@
                 "uuid"
             ],
             "time": "2018-01-20T00:28:24+00:00"
+        },
+        {
+            "name": "saadj55/laravel-pubg",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/saadj55/laravel-pubg.git",
+                "reference": "af253c74717e60da4bf0722101ae7678c58ca17f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/saadj55/laravel-pubg/zipball/af253c74717e60da4bf0722101ae7678c58ca17f",
+                "reference": "af253c74717e60da4bf0722101ae7678c58ca17f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.3.x|5.6.x",
+                "php": "^5.6 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Saadj55\\LaravelPubg\\Providers\\LaravelPubgServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Saadj55\\LaravelPubg\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Saad Nasir Siddique",
+                    "email": "saadj55@gmail.com"
+                }
+            ],
+            "description": "Laravel Package for Official PUBG API",
+            "keywords": [
+                "api",
+                "laravel",
+                "laravelpackage",
+                "pubg",
+                "pubgapi"
+            ],
+            "time": "2018-04-12T14:29:13+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3968,7 +4019,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "saadj55/laravel-pubg": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
