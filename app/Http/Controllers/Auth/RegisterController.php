@@ -10,7 +10,7 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
 {
-    //ayylmao
+    //ayylmao x2
     /*
     |--------------------------------------------------------------------------
     | Register Controller
